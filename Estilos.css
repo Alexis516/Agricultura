@@ -1,0 +1,205 @@
+body {
+    background: rgb(121, 119, 119);
+}
+h1{
+   color: #ff0000;
+   font-size: 80px;
+   text-align: center;
+   background: blue;
+}
+h2 {
+   color: blue;
+   font-size: 40px;
+   text-align: center;
+}
+h3 {
+   color:rgb(228, 126, 9);
+   font-size: 40px;
+   text-align: center;
+}
+h4 {
+   color: rgba(72, 189, 4, 0.788);
+   font-size: 40px;
+   text-align: center;
+}
+h5 {
+    color: magenta;
+    font-size: 40px;
+    text-align: center;
+}
+p {
+   color: rgb(255, 255, 255);
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: bold;
+}
+p2 {
+  color: #000;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+}
+p3 {
+    color: #000;
+    font-size: 20px;
+    font-family: Arial;
+}
+p4 {
+    color: #000;
+    font-size: 20px;
+    font-family: Arial;
+}
+p5 {
+    color: #000;
+    font-size: 20px;
+    font-family: Arial;
+  }
+a {
+    color: rgb(3, 70, 185);
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px;
+    box-shadow: darkorange;
+    display: inline-block;
+}
+a:link {
+    color: rgb(15, 174, 228);
+}
+a:hover {
+    text-decoration: none;
+    background: rgb(7, 117, 243);
+    color: #000;
+    box-shadow: 0px 5px 0px rgba(8, 224, 214, 0.575);
+}
+.caja1 {
+    width: 93%;
+    height: 530px;
+    background: rgb(9, 243, 231);
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+    display: block;
+}
+.caja2 {
+    width: 93%;
+    height: 670px;
+    background: rgb(235, 101, 12);
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+    display:block;
+}
+.caja3 {
+    width: 93%;
+    height: 285px;
+    background: rgb(34, 212, 64);
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+    display: block;
+}
+.caja4 {
+    width: 93%;
+    height: 390px;
+    background: rgb(226, 31, 210);
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+    display: block;
+}
+img {
+    width: 1000px;
+    height: 550px;
+    border-radius: 10px;
+    display: block;
+}
+.menu {
+    width: 100%;
+    background: mediumblue;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    padding: 10px 79px;
+    display: inline-block;
+}
+.menu li a:hover {
+    background: rgb(238, 204, 14);
+}
+table {
+    border-collapse: collapse;
+}
+table td {
+    border: 1px solid #000;
+    padding: 20px;
+}
+table tr:hover {
+    background: rgb(15, 223, 238);
+}
+table td:hover {
+    background: gold;
+    color: rgb(248, 242, 242);
+}
+form {
+    width: 30%;
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+}
+label {
+    font-size: 12px;
+    display: block;
+}
+input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 88, 172);
+}
+input:focus, textarea:focus {
+    border: 1px solid rgb(15, 3, 82);
+}
+textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 200px;   
+}
+input[type="submit"] {
+    margin-bottom: 0px;
+    background: rgb(6, 10, 247);
+    color: floralwhite;
+    border: none;
+}
+input[type="submit"]:hover {
+    background: rgb(5, 237, 245);
+    cursor: pointer;
+}
+header, .Contenedor, footer {
+    background: #faf0e6;
+    width: 90%;
+    max-width: 1000px;
+    margin: 5px auto;
+}
+header nav {
+    background: aqua;
+}
+.Contenedor .articles {
+    margin-right: 1,5%;
+}
+.Contenedor .article .articles {
+    padding: 10px;
+    background: rgb(78, 78, 228);
+    margin-bottom: 10px;
+}
+footer {
+    background: blue;
+    color: cornsilk;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
